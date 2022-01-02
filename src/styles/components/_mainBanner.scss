@@ -1,0 +1,46 @@
+.main-banner {
+    font-family: $font-family-eng;
+    text-align: center;
+    background-color: $tomato-color;
+    padding: 108px 0;
+    h1 {
+        font-style: italic;
+        font-weight: 800;
+        line-height: 27px;
+        font-size: 50px;
+        color: $black-two-color;
+    }
+    &__image {
+        margin: 27px 0 82px 0;
+    }
+    &__bottom {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        a {
+            font-size: 20px;
+            line-height: 27px;
+            color: $black-two-color;
+            font-weight: 800;
+        }
+        .btn-banner {
+            border: 3px solid $black-two-color;
+            border-radius: 50px;
+            padding: 10px 34px;
+
+            &:first-child {
+                margin-right: 79px;
+            }
+            &:last-child {
+                margin-left: 60px;
+            }
+        }
+        .btn-launching {
+            max-width: 169px;
+            border-top: 4px solid $black-two-color;
+            border-bottom: 4px solid $black-two-color;
+            padding: 14px 0;
+            margin: 0 140px 0 129px;
+        }
+    }
+}

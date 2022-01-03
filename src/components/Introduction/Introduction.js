@@ -5,7 +5,7 @@ const Introduction = () => {
         <div className='introduction'>
             <div className='main-container'>
                 <div className='introduction__content'>
-                    <h1>WHAT HAPPENDED !</h1>
+                    <h1>WHAT HAPPENDED!</h1>
                     <p>
                         How to create mobile-optimized videos in minutes. Not a
                         designer, every team makes a lot of videos Can be

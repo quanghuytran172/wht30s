@@ -1,0 +1,98 @@
+.best-product {
+    width: 100%;
+    background-image: url("../../assets//img/Bes_bg.png");
+    background-size: cover;
+    font-family: $font-family-eng;
+    padding: 140px 0 197px 0;
+
+    &__header {
+        color: #f96400;
+        text-align: center;
+        max-width: 670px;
+        margin: 0 auto;
+        h1 {
+            font-size: 50px;
+            font-weight: 800;
+            line-height: 60px;
+            letter-spacing: 5px;
+        }
+        p {
+            font-size: 20px;
+            line-height: 32px;
+            font-weight: 400;
+            margin-top: 35px;
+        }
+    }
+
+    &__bottom {
+        display: flex;
+        margin-top: 64px;
+        .bProduct-item {
+            position: relative;
+            width: calc(100% / 3);
+            height: 514px;
+            .wrapped-content {
+                display: flex;
+                justify-content: center;
+            }
+
+            .circle-number {
+                background-image: url("../../assets/img/Producticon_bg.png");
+                background-size: cover;
+
+                position: absolute;
+                width: 92px;
+                height: 92px;
+                top: -8%;
+
+                span {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+
+                    font-size: 30px;
+                    font-weight: 800;
+                    color: $dark-brown-color;
+                    line-height: 25px;
+                    padding-bottom: 3px;
+                    border-bottom: 1.5px solid;
+                }
+            }
+
+            .bProduct-item__content {
+                position: absolute;
+                display: flex;
+                align-items: center;
+                padding: 5px 5px 4px 24px;
+                gap: 81px;
+                border: 3px solid $black-three-color;
+                background-color: $white-color;
+                bottom: -48px;
+
+                h5 {
+                    color: $black-three-color;
+                    max-width: 189.18px;
+                    font-size: 20px;
+                    line-height: 25px;
+                    font-weight: 800;
+                }
+                span {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 64.08px;
+                    height: 64.89px;
+                    background-color: #110e03;
+                    border-radius: 9999px;
+                    a {
+                        color: $white-color;
+                        font-size: 20px;
+                        line-height: 25px;
+                        font-weight: 800;
+                    }
+                }
+            }
+        }
+    }
+}

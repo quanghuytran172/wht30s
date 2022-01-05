@@ -29,8 +29,11 @@
         margin-top: 64px;
         .bProduct-item {
             position: relative;
+            background-size: contain;
+            background-repeat: no-repeat;
             width: calc(100% / 3);
             height: 514px;
+
             .wrapped-content {
                 display: flex;
                 justify-content: center;

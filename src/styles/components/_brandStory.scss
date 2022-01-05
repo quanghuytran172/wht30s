@@ -1,0 +1,84 @@
+.brand {
+    background-color: $cerulean-color;
+    padding-top: 60px;
+    .bg-overlay {
+        width: 100%;
+        background-image: url("../../assets/img/brand_bg.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding: 75px 0 170px 0;
+    }
+
+    &__top {
+        color: #fcd32a;
+        text-align: center;
+        max-width: 680px;
+        margin: 0 auto;
+        h1 {
+            font-size: 45px;
+            font-weight: 700;
+            line-height: 60px;
+            letter-spacing: 4.5px;
+        }
+        p {
+            font-family: $font-family-korean;
+            font-size: 16px;
+            line-height: 30px;
+            font-weight: 300;
+            margin-top: 15px;
+        }
+    }
+
+    &__bottom {
+        max-width: 1253px;
+        margin: 0 auto;
+        margin-top: 67px;
+        background-color: $white-color;
+        .brand-video {
+            &__header {
+                background-color: $black-two-color;
+                padding: 9px 9px 4px 9px;
+                .bar {
+                    height: 9px;
+                    width: 100%;
+                    border-top: 2px solid $cerulean-color;
+                    border-bottom: 2px solid $cerulean-color;
+                }
+            }
+            &__main {
+                display: flex;
+                .image {
+                    width: 48.85%;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .content {
+                    flex: 1;
+                    padding: 34px 68px 54px 45px;
+                    border: 3px solid $black-two-color;
+                    border-left: 0;
+                    color: $black-three-color;
+
+                    h2 {
+                        font-family: $font-family-eng;
+                        font-size: 25px;
+                        font-weight: 800;
+                        line-height: 60px;
+                        margin-bottom: 8px;
+                    }
+
+                    p {
+                        font-family: $font-family-korean;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 30px;
+                        margin-bottom: 70px;
+                    }
+                }
+            }
+        }
+    }
+}

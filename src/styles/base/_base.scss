@@ -10,7 +10,7 @@ a {
     text-decoration: none;
     &:link,
     &:visited {
-        color: black;
+        color: #222222;
     }
 }
 
@@ -21,10 +21,4 @@ ul {
 img {
     max-width: 100%;
     height: auto;
-}
-
-.main-container {
-    max-width: 1600px;
-    margin: 0 auto;
-    padding: 0 15px;
 }

@@ -5,6 +5,8 @@ import Introduction from "./components/Introduction/Introduction";
 import BestProduct from "./components/BestProduct/BestProduct";
 import Products from "./components/Products/Products";
 import BrandStory from "./components/BrandStory/BrandStory";
+import News from "./components/News/News";
+
 function App() {
     return (
         <div className='App'>
@@ -14,6 +16,7 @@ function App() {
             <BestProduct></BestProduct>
             <Products></Products>
             <BrandStory></BrandStory>
+            <News></News>
         </div>
     );
 }

@@ -6,7 +6,7 @@ import BestProduct from "./components/BestProduct/BestProduct";
 import Products from "./components/Products/Products";
 import BrandStory from "./components/BrandStory/BrandStory";
 import News from "./components/News/News";
-
+import Video from "./components/Video/Video";
 function App() {
     return (
         <div className='App'>
@@ -17,6 +17,7 @@ function App() {
             <Products></Products>
             <BrandStory></BrandStory>
             <News></News>
+            <Video></Video>
         </div>
     );
 }

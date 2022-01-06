@@ -7,6 +7,7 @@ import Products from "./components/Products/Products";
 import BrandStory from "./components/BrandStory/BrandStory";
 import News from "./components/News/News";
 import Video from "./components/Video/Video";
+import Footer from "./components/Footer/Footer";
 function App() {
     return (
         <div className='App'>
@@ -18,6 +19,7 @@ function App() {
             <BrandStory></BrandStory>
             <News></News>
             <Video></Video>
+            <Footer></Footer>
         </div>
     );
 }

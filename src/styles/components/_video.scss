@@ -126,4 +126,102 @@
             }
         }
     }
+
+    @media screen and (max-width: 767.98px) {
+        margin-bottom: 0;
+        .wrapper {
+            background-image: none;
+            padding-bottom: 100px;
+        }
+        &__top {
+            h1 {
+                font-size: 35px;
+            }
+            p {
+                font-size: 15px;
+            }
+        }
+
+        &__bottom {
+            .video-header {
+                padding: 10px 14px;
+                h4 {
+                    font-size: 18px;
+                }
+            }
+
+            .video-middle {
+                padding: 10px 14px;
+                h5 {
+                    font-size: 14px;
+                }
+            }
+
+            .video-show {
+                .description {
+                    h4 {
+                        &:first-child {
+                            font-size: 18px;
+                            padding: 10px 14px;
+                        }
+
+                        &:last-child {
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 374.98px) {
+        &__top {
+            h1 {
+                font-size: 30px;
+            }
+        }
+
+        &__bottom {
+            .video-header {
+                padding: 10px 14px;
+                h4 {
+                    font-size: 14px;
+                }
+                .bar {
+                    border-top: 2px solid $white-color;
+                    border-bottom: 2px solid $white-color;
+                }
+                .vector {
+                    width: 16px;
+                    height: 16px;
+                }
+                .right_arrow {
+                    width: 16px;
+                    height: 16px;
+                }
+            }
+
+            .video-middle {
+                padding: 10px 14px;
+                h5 {
+                    font-size: 10px;
+                }
+            }
+
+            .video-show {
+                .description {
+                    h4 {
+                        &:first-child {
+                            font-size: 12px;
+                            padding: 10px 14px;
+                        }
+
+                        &:last-child {
+                            font-size: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

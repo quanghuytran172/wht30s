@@ -30,4 +30,13 @@
         background-color: $black-three-color;
         color: #fff;
     }
+
+    @media screen and (max-width: 767.98px) {
+        font-size: 18px;
+        padding: 12px 32px;
+    }
+    @media screen and (max-width: 374.98px) {
+        font-size: 16px;
+        padding: 8px 26px;
+    }
 }

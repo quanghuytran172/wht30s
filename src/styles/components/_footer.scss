@@ -80,4 +80,60 @@
             gap: 22px;
         }
     }
+
+    @media screen and (max-width: 1279.98px) {
+        &__top {
+            // justify-content: none;
+            // gap: 90px;
+            &-right {
+                // flex-wrap: wrap;
+                // gap: 30px;
+                // //
+
+                ul {
+                    margin-right: 35px !important;
+                }
+            }
+        }
+        &_bottom {
+            p {
+                max-width: 620px;
+            }
+        }
+    }
+
+    @media screen and (max-width: 1023.98px) {
+        &__top {
+            justify-content: none;
+            gap: 90px;
+            &-right {
+                flex-wrap: wrap;
+                gap: 30px;
+            }
+        }
+        &_bottom {
+            flex-direction: column;
+            gap: 30px;
+            p {
+                max-width: 100%;
+            }
+        }
+    }
+
+    @media screen and (max-width: 767.98px) {
+        padding: 0 15px;
+
+        &__top {
+            justify-content: none;
+            gap: 30px;
+            flex-direction: column;
+            &-right {
+                gap: 30px;
+                flex-direction: column;
+
+                ul {
+                }
+            }
+        }
+    }
 }

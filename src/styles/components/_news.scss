@@ -83,4 +83,44 @@
         right: 68px;
         top: 163px;
     }
+
+    @media screen and (max-width: 767.98px) {
+        &__top {
+            h1 {
+                font-size: 35px;
+            }
+        }
+        .obj1,
+        .obj2,
+        .icon1,
+        .icon2,
+        .icon3 {
+            display: none;
+        }
+
+        &__images {
+            flex-direction: column;
+            gap: 30px;
+            margin-top: 80px;
+            &-item {
+                padding: 0 15px;
+                margin-left: 0 !important;
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 374.98px) {
+        &__top {
+            h1 {
+                font-size: 30px;
+            }
+            p {
+                font-size: 15px;
+            }
+        }
+    }
 }

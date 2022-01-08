@@ -14,20 +14,22 @@
     }
     ul {
         display: flex;
-    }
-
-    ul li {
-        &:nth-child(1) {
-            margin-right: 76px;
+        li {
+            &:nth-child(1) {
+                margin-right: 76px;
+            }
+            &:nth-child(2) {
+                margin-right: 72px;
+            }
+            &:nth-child(4) {
+                margin: 0px 44px 0px 57px;
+            }
+            &:nth-child(5) {
+                margin-right: 80px;
+            }
         }
-        &:nth-child(2) {
-            margin-right: 72px;
-        }
-        &:nth-child(4) {
-            margin: 0px 44px 0px 57px;
-        }
-        &:nth-child(5) {
-            margin-right: 80px;
+        &.active {
+            top: 0;
         }
     }
 
@@ -37,10 +39,74 @@
         font-weight: 400;
         line-height: 30px;
         margin: 34px 0 35px 0;
+        &:hover {
+            color: hsla(0, 0%, 100%, 0.7);
+        }
     }
     .vertical-bar {
         width: 1px;
         height: 23px;
         background-color: $white-color;
+    }
+
+    button {
+        display: none;
+        border: none;
+        z-index: 99999;
+        background: transparent;
+        color: $white-color;
+        cursor: pointer;
+        ion-icon {
+            color: $white-color;
+            font-size: 35px;
+        }
+        &.active {
+            display: none;
+        }
+        @media screen and (max-width: 1256px) {
+            display: flex;
+        }
+    }
+
+    .button2 {
+        position: fixed;
+        top: 5%;
+        right: 3%;
+    }
+    @media screen and (max-width: 1256px) {
+        padding: 0px 50px 0px 48px;
+        ul {
+            position: fixed;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            align-items: center;
+            height: 100vh;
+            top: -150%;
+            left: 0;
+            z-index: 99999;
+            background-color: $black-two-color;
+            padding-top: 80px;
+            transition: 0.3s ease-in-out;
+            a {
+                font-size: 25px;
+            }
+            li {
+                margin: 0 !important;
+                margin-top: 40px !important;
+                &:nth-child(4) {
+                    width: 60%;
+                }
+            }
+
+            .vertical-bar {
+                width: 100%;
+                height: 1px;
+                background-color: $white-color;
+            }
+        }
+    }
+    @media screen and (max-width: 767.98px) {
+        padding: 0px 15px;
     }
 }
